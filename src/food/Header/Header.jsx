@@ -1,15 +1,11 @@
-import React from 'react'
-import {Headerstyle} from '../../styled-component-files/Header-style';
+import React from 'react';
+import {Headerfont, Middlefont} from '../../styled-component-files/Header-style';
 
-const Pizza = () => {}
+const Header = () => {
     return(
-        <Div>
-
-        </Div>
-<>
-<h1>My header!</h1>
-</>
-
+        <Middlefont>
+        <Headerfont>Best Pizza in town!</Headerfont>
+        </Middlefont>
     )
 }
 export {Header};
