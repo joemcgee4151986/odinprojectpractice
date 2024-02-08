@@ -1,11 +1,13 @@
 import styled from "styled-components";
-import cheesepizza from '../../../src/assets/cheesepizza.JPG';
+import Cheesepizza from '../../assets/Cheesepizza.JPG';
 
 export const Paragraphcolumn = styled.p `
 column-count: 2;
 `
-export const Pizza = styled('img') `
-background-image: url(${cheesepizza});
-max-width: 100px;
-max-height: 100px;
+export const Pizza = styled.div `
+
+width: 97%;
+  height: 870px;
+background-image: url(${Cheesepizza});
+
 `
