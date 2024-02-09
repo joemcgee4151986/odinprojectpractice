@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Cheesepizza from '../../assets/Cheesepizza.PNG';
+import Cheesepizza from '../../assets/Cheesepizza.png';
 
 export const Paragraphcolumn = styled.p `
 column-count: 2;
