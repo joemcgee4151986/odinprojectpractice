@@ -1,5 +1,5 @@
 import {Paragraphcolumn,Pizza} from '../styled-component-files/Body-style';
-
+import React from 'react';
  const Body =() => {
     return (
   <div>

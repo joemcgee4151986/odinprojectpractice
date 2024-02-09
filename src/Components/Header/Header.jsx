@@ -1,5 +1,5 @@
 import {Headerfont, Middlefont} from '../styled-component-files/Header-style';
-
+import React from 'react';
 const Header = () => {
     return(
         <Middlefont>
